@@ -37,6 +37,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
   The greatest decrease in profits (date and amount) over the entire period
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
 **PyPoll Instructions**
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
