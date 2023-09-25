@@ -9,6 +9,7 @@ candidates = []
 candidate_votes = []
 percentage_votes = []
 candidates_list = []
+
 #Import csv file from Resources folder
 election_data_csv = os.path.join("Resources", "election_data.csv")
 
@@ -44,7 +45,7 @@ with open(election_data_csv, encoding='UTF-8') as csvfile:
     for votes in candidate_votes:
         percentage_votes.append((votes / total_votes) * 100)
         
-        #Change votes to percent
+    #Change votes to percent
     percent_1 = percentage_votes[0] 
     percent_1 = round(percent_1, 3)
     percent_2 = percentage_votes[1]
